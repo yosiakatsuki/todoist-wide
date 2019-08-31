@@ -1,0 +1,10 @@
+{
+  "name": "todoist-wide",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Todoistの編集領域を広くしたいChrome拡張",
+  "content_scripts": [{
+    "matches": ["https://todoist.com/app*"],
+    "css": ["style.css"]
+  }]
+}
